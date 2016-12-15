@@ -1,0 +1,155 @@
+
+
+/*individual flexbox classes*/
+
+/*these are flex classes you can put in the parent container of flex elements*/
+.flex-container{
+  display: flex;
+}
+
+.flex-justify-end{
+  justify-content: flex-end;
+}
+
+.flex-justify-center{
+  justify-content: center;
+}
+
+.flex-justify-space-between{
+  justify-content: space-between;
+}
+
+.flex-justify-space-around{
+  justify-content: space-around;
+}
+
+/*to make element responsive to screen size*/
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-column-reverse{
+  flex-direction: column-reverse;
+}
+
+
+
+/*this are classes you can put inside the children or the content of the parent container*/
+
+/*align self is used to align the lement vertically similar to justfy which will align horizontaly. however align self is used in the children element*/
+.flex-align-self-strech{
+  align-self: stretch;
+}
+.flex-align-self-end{
+  align-self: flex-end;
+}
+
+
+
+
+/*flex grow will automatically put width or height into the element and divided it equally */
+.flex-grow-1{
+  flex-grow: 1;
+}
+
+/*flex basis will generate size of the element. it is similar like width or height property however it is build specific for flexbox this will change the width or height depending on the direction of the flex*/
+.flex-basis-30 {
+  flex-basis: 30%;
+}
+.flex-basis-50 {
+  flex-basis: 50%;
+}
+
+.flex-center{
+  margin: auto;
+}
+
+.flex-size-1 {
+  flex: 1;
+}
+.flex-size-2 {
+  flex: 2;
+}
+.flex-size-3 {
+  flex: 3;
+}
+.flex-size-4 {
+  flex: 4;
+}
+.flex-size-5 {
+  flex: 5;
+}
+.flex-size-6 {
+  flex: 6;
+}
+.flex-size-7 {
+  flex: 7;
+}
+.flex-size-8 {
+  flex: 8;
+}
+.flex-size-9 {
+  flex: 9;
+}
+.flex-size-10 {
+  flex: 10;
+}
+.flex-size-11 {
+  flex: 11;
+}
+.flex-size-12 {
+  flex: 12;
+}
+
+
+.flex-order-1 {
+  order: 1;
+}
+.flex-order-2 {
+  order: 2;
+}
+.flex-order-3 {
+  order: 3;
+}
+.flex-order-4 {
+  order: 4;
+}
+.flex-order-5 {
+  order: 5;
+}
+.flex-order-6 {
+  order: 6;
+}
+.flex-order-7 {
+  order: 7;
+}
+.flex-order-8 {
+  order: 8;
+}
+.flex-order-9 {
+  order: 9;
+}
+.flex-order-10 {
+  order: 10;
+}
+.flex-order-11 {
+  order: 11;
+}
+.flex-order-12 {
+  order: 12;
+}
